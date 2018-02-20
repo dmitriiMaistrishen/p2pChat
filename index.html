@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>p2p chat</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+<script src="scripts/peer.js" defer></script>
+<script src="scripts/peerJSchat.js" defer></script>
+<link rel="stylesheet" type="text/css" href="peerJSchat.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+<header><div style="margin-left: auto; margin-right: auto; width: 170px; height: 60px"><img src="images/p2p_logo_v2.png"></div></header>
+
+<div id = "main">
+
+
+<div id = "head">
+<form>
+<p class="headText">My current ID:</p>
+<p id = "ident"></p>
+<p class="headText">Select ID:</p>
+<input id = "idChange"><button id = "idChangeButton" type="button">Select</button></br>
+<p class="headText">Begin chat with:</p>
+<input id = "partner"><button id = "partnerButton" style = "margin-bottom: 15px" type="button">Connect</button>
+</form>
+</div>
+
+<table>
+<tr>
+<td style="padding: 0px; margin-bottom: 20px;"><div id = "connectionsList" style="margin-right: 5px; overflow: auto">
+<p style = "margin-top: 0px; padding-top: 10px; color: #00311e">My connections:</p>
+<ol id = "partnersList"></ol>
+</div></td>
+
+<td style="position: relative; width: 390px; height: 420px;">
+<div id = "stub"><img src="images/stub.png"></div>
+</td>
+
+</tr>
+</table>
+
+<div style="width: 100%; font-size: 70%; color: gray; margin-top: 20px; text-align: center"><p style="margin: 0px">&copy 2017. Me. All rights reserved.</p>
+<p style="margin: 0px">Contact us: maistrishid@gmail.com</p></div>
+</div>
+
+</body>
+
+</html>
